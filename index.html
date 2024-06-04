@@ -2,7 +2,7 @@
 <html lang="en"> 
 <head> 
   <meta charset="UTF-8"> 
-  <title>Login Form</title> 
+  <title>Login and Registration Form</title> 
   <link rel="stylesheet" href="./style.css"> 
 </head> 
 <body> 
@@ -11,7 +11,7 @@
     <div class="cont">
         <div class="form sign-in">
             <h2>Welcome</h2>
-            <form action="submit.php" method="POST">
+            <form action="login.php" method="POST">
                 <label>
                     <span>Email</span>
                     <input type="email" name="email" required />
@@ -39,19 +39,21 @@
             </div>
             <div class="form sign-up">
                 <h2>Create your Account</h2>
-                <label>
-                    <span>Name</span>
-                    <input type="text" />
-                </label>
-                <label>
-                    <span>Email</span>
-                    <input type="email" />
-                </label>
-                <label>
-                    <span>Password</span>
-                    <input type="password" />
-                </label>
-                <button type="button" class="submit">Sign Up</button>
+                <form action="register.php" method="POST">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" required />
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" required />
+                    </label>
+                    <label>
+                        <span>Password</span>
+                        <input type="password" name="password" required />
+                    </label>
+                    <button type="submit" class="submit">Sign Up</button>
+                </form>
             </div>
         </div>
     </div>
