@@ -289,8 +289,15 @@ input {
     -webkit-transform: translate3d(-900px, 0, 0);
     transform: translate3d(-900px, 0, 0);
 }
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
 
 .cont.s--signup .sign-up {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-}
+
+    
+    }    
