@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername = "127.0.0.1:3306";
-$username = "root";
-$password = "";
-$dbname = "login_system";
+$servername = "srv1497.hstgr.io";
+$username = "u188323907_lester";
+$password = "#Dgisweakgamer1";
+$dbname = "u188323907_login_system";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
